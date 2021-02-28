@@ -10,6 +10,9 @@ A desktop application for a timer with pomodoro feature made using  QT Creator
  * Displays the total focus time at completion.
  * Sends notification on session change.
 
+**Release**
+  * <a href="https://github.com/HohShenYien/Pomodoro-Timer/releases/tag/DesktopApp">Version Alpha</a>
+
 **Previews**
 
 <img src = https://github.com/HohShenYien/Pomodoro-Timer/blob/main/Preview/Preview%201.jpg width="400" />
@@ -19,6 +22,7 @@ A desktop application for a timer with pomodoro feature made using  QT Creator
 <img src = https://github.com/HohShenYien/Pomodoro-Timer/blob/main/Preview/Preview%203.jpg width="300"/>
 
 **Sources**
+
 **Icons**
   * Pause icon made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
   * Play icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
