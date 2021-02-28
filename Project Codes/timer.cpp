@@ -255,7 +255,10 @@ void Timer::on_endBtn_clicked()
     timerWorker->stop();
     thread->wait();
 
-    int totalTime = timerWorker->the_timer->total + timerWorker->the_timer->duration - timerWorker->the_timer->cur_time;
+    int totalTime = timerWorker->the_timer->total;
+    if (timerWorker->the_timer->status == 0) {
+     totalTime += timerWorker->the_timer->duration - timerWorker->the_timer->cur_time;
+    }
     QString totalTimeStr;
     totalTimeStr.sprintf("You have been focusing for %i hours %02i minutes %02i seconds!",
                       totalTime/3600, totalTime % 3600 / 60, totalTime % 60);
