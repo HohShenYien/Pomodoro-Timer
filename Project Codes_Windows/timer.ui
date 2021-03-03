@@ -33,7 +33,7 @@
      <string notr="true"/>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="page_timer">
      <widget class="QScrollArea" name="display">
@@ -105,6 +105,7 @@
         </property>
         <property name="font">
          <font>
+          <family>Arial</family>
           <pointsize>30</pointsize>
          </font>
         </property>
@@ -208,6 +209,11 @@
         <height>400</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+       </font>
+      </property>
       <property name="styleSheet">
        <string notr="true"/>
       </property>
@@ -228,6 +234,7 @@
        </property>
        <property name="font">
         <font>
+         <family>Arial</family>
          <pointsize>24</pointsize>
         </font>
        </property>
@@ -265,6 +272,11 @@ background-color: rgba(0,0,0,0%)</string>
          <height>17</height>
         </rect>
        </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(0,0,0,0);
 qproperty-alignment: AlignCenter;</string>
@@ -282,6 +294,11 @@ qproperty-alignment: AlignCenter;</string>
          <height>17</height>
         </rect>
        </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(0,0,0,0);
 qproperty-alignment: AlignCenter;</string>
@@ -298,6 +315,11 @@ qproperty-alignment: AlignCenter;</string>
          <width>70</width>
          <height>17</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(0,0,0,0);
@@ -318,6 +340,7 @@ qproperty-alignment: AlignCenter;</string>
        </property>
        <property name="font">
         <font>
+         <family>Arial</family>
          <pointsize>16</pointsize>
         </font>
        </property>
@@ -434,6 +457,7 @@ qproperty-alignment: AlignLeft;</string>
        </property>
        <property name="font">
         <font>
+         <family>Arial</family>
          <pointsize>16</pointsize>
         </font>
        </property>
@@ -466,6 +490,7 @@ qproperty-alignment: AlignLeft;
        </property>
        <property name="font">
         <font>
+         <family>Arial</family>
          <pointsize>16</pointsize>
         </font>
        </property>
@@ -491,6 +516,7 @@ qproperty-alignment: AlignLeft;</string>
        </property>
        <property name="font">
         <font>
+         <family>Arial</family>
          <pointsize>16</pointsize>
         </font>
        </property>
@@ -516,6 +542,7 @@ qproperty-alignment: AlignLeft;</string>
        </property>
        <property name="font">
         <font>
+         <family>Arial</family>
          <pointsize>8</pointsize>
         </font>
        </property>
@@ -539,6 +566,7 @@ qproperty-alignment: AlignCenter;</string>
        </property>
        <property name="font">
         <font>
+         <family>Arial</family>
          <pointsize>6</pointsize>
         </font>
        </property>
@@ -1129,6 +1157,11 @@ qproperty-alignment: AlignLeft;</string>
          <height>17</height>
         </rect>
        </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If there should be a sound effect when session changes&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
@@ -1612,6 +1645,11 @@ qproperty-alignment: AlignLeft;</string>
          <height>17</height>
         </rect>
        </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If there should a notification popup when session changes&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
@@ -1651,6 +1689,11 @@ qproperty-alignment: AlignLeft;</string>
          <width>91</width>
          <height>17</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
        </property>
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If there should be an icon in system tray. (Must be checked to receive notification)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -2134,6 +2177,11 @@ qproperty-alignment: AlignLeft;</string>
          <width>51</width>
          <height>17</height>
         </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
        </property>
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;If there should be a message on total focus time after completion&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
